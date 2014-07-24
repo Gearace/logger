@@ -110,7 +110,7 @@ function log(ctx, start, len, err, event) {
     : event === 'close' ? '\x1B[33m-x-'
     : '\x1B[90m-->';
 
-  console.log('['+moment().format('YYYY-MM-DD HH:mm:ss.SSS')+']  '+  upstream + ' \x1B[;1m%s \x1B[0;90m %s \x1B[' + c + 'm%s\x1B[90m %s %s\x1B[0m',
+  console.log('['+moment().format('YYYY-MM-DD HH:mm:ss.SSS')+']  '+  upstream + ' \x1B[;1m%s\x1B[0;90m %s \x1B[' + c + 'm%s\x1B[90m %s %s\x1B[0m',
     ctx.method,
     ctx.originalUrl,
     status,
