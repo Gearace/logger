@@ -20,6 +20,7 @@
   "dependencies": {
     "passthrough-counter": "~0.0.1",
     "humanize-number": "~0.0.1",
+    "moment": "^2.7.0",
     "bytes": "1"
   }
 }
