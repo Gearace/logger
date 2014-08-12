@@ -7,7 +7,7 @@ var Counter = require('passthrough-counter');
 var humanize = require('humanize-number');
 var bytes = require('bytes');
 var moment = require('moment');
-moment.lang('zh_CN');
+moment.locale('zh_CN');
 
 /**
  * TTY check for dev format.
